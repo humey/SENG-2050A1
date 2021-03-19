@@ -1,0 +1,77 @@
+h1{
+	color:red;
+	text-align:center;
+	text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+h3{
+	text-align:center;
+	opacity:30%;
+	
+}
+
+.table{
+	width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+table th{
+	border-collapse: collpase;
+	border: 1px solid black;
+	background-color:grey;
+	
+}
+
+table td{
+	border-collapse: collpase;
+	border: 1px solid black;
+	
+}
+
+.booked{
+	background-color: red;
+}
+
+.free:hover{
+	backgound-color: blue;
+}
+.form .field-divided{ /* Length of the Name boxes */
+
+	width: 49%;
+	padding:10px;
+}
+
+.form seatBooking {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input:invalid{
+  border: 1px solid red;
+  outline:none;
+}
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+div.divForm{
+	display:block;
+	text-align:center;
+}
+
+form.seatBooking{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input{
+	width:15%;
+}
